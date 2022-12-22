@@ -1,16 +1,17 @@
 const textConfig = {
-  text1: "Chào Bạn!",
-  text2: "Bạn vào đây Làm hồ sơ nha.",
-  text3: "Bạn muốn Vay tiền phải không nào ",
-  text4: "Nếu bạn ko trả lời mà thoát ra tức là muốn vay phải không ",
-  text5: "Tôi Không Muốn Vay",
-  text6: "Làm hồ sơ thôi",
-  text7: "Làm Hồ Sơ Ngay",
-  text8: "GỬI HỒ SƠ",
-  text9: "TÔI ĐỒNG Ý",
-  text10: "HỒ SƠ SẼ HOÀN TẤT TRONG GIÂY LÁT",
-  text11: "CHUYỂN VÀO THẨM ĐỊNH NGAY",
-  text12: "CHUYỂN NGAY",
+  text1: "He lu Thục Đoan!",
+  text2: "Tớ có điều này muốn hỏi Thục Đoan nhớ phải trả lời thật lòng nhaaa.",
+  text3: "Thục Đoan yêu tớ có phải không nào ._.",
+  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
+  text5: "mơ à???",
+  text6: "Yêu ơi là yêu <3",
+  text7: "lí do cậu thích tớ đi :vvvv",
+  text8: "Gửi cho tớ <3",
+  text9: "Vì cậu đẹp trai vlllll",
+  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text11:
+    "Còn giờ thì chờ gì nữa mà ko inbox đi nàooo",
+  text12: "Okii lunn <3",
 };
 
 $(document).ready(function () {
@@ -113,7 +114,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Tôi Đồng ý'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
@@ -137,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://appdaiphat.org/";
+            window.location = "http://m.me/baolam98.hcm/";
           },
         });
       }
